@@ -1,3 +1,8 @@
+'''
+Write a Python program that allows the user to manage a simple phone book. 
+The program should allow the user to add, remove, and search for contacts, as well as display all contacts.
+'''
+
 def add_contact(phone_book, name, contact):
     phone_book[name] = contact
     print(f"Contact '{name}' with number '{contact}' added successfully.")
